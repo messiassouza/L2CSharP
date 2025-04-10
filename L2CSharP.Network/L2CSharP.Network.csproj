@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\L2CSharP.DataBase\L2CSharP.DataBase.csproj" />
+    <ProjectReference Include="..\L2CSharP.LoggerApi\L2CSharP.LoggerApi.csproj" />
+    <ProjectReference Include="..\L2CSharP.YoDA\L2CSharP.YoDA.csproj" />
+  </ItemGroup>
+
+</Project>
